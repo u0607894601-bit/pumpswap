@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PUMP Quest — Tasks & Rewards</title>
+  <meta name="description" content="Join PUMP Quest: complete simple tasks like following on Twitter to earn PUMP rewards. Secure wallet connection and modern responsive UI." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://example.com/" />
+  <meta property="og:title" content="PUMP Quest — Tasks & Rewards" />
+  <meta property="og:description" content="Complete verified tasks and claim PUMP rewards. Safe wallet connection and transparent rules." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#0b1226" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "PUMP Quest",
+    "url": "https://example.com/",
+    "description": "PUMP Quest — a task-based rewards platform."
+  }
+  </script>
+</head>
+<body>
+  <header class="header">
+    <div class="wrap">
+      <a class="logo" href="#">PUMP<span class="dot">.</span>Quest</a>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="#features">Features</a>
+        <a href="#tasks">Tasks</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-ghost" id="langBtn" aria-label="Language">EN</button>
+        <button class="btn btn-primary goAuth" id="connectTop">Connect Wallet</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="hero">
+      <div class="hero-left">
+        <h1>PUMP Quest — Earn PUMP by completing simple tasks</h1>
+        <p class="sub">Follow, share, and engage — claim rewards securely. No financial advice. Designed for safety and clear UX.</p>
+        <div class="hero-ctas">
+          <button class="btn btn-primary goAuth">Connect Wallet</button>
+          <a class="btn btn-outline" href="#tasks">View Tasks</a>
+        </div>
+        <ul class="trust">
+          <li><strong>Transparent</strong><span>Clear task rules</span></li>
+          <li><strong>Secure</strong><span>Wallet-only auth</span></li>
+          <li><strong>Ad-safe</strong><span>No promotional restricted terms</span></li>
+        </ul>
+      </div>
+      <div class="hero-right" aria-hidden="true">
+        <div class="card glass">
+          <div class="card-row">
+            <div class="token">PUMP</div>
+            <div class="amount">10</div>
+          </div>
+          <div class="card-row muted">Follow on Twitter → +10 PUMP</div>
+        </div>
+        <div class="cards-grid">
+          <div class="mini card">Retweet — 5 PUMP</div>
+          <div class="mini card">Profile — 3 PUMP</div>
+          <div class="mini card">Referral — 8 PUMP</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="wrap features">
+      <h2>How it works — simple & modern</h2>
+      <div class="grid">
+        <div class="card feature">
+          <h3>Secure Connection</h3>
+          <p>Connect your wallet safely. We never request private keys or passwords.</p>
+        </div>
+        <div class="card feature">
+          <h3>Complete Tasks</h3>
+          <p>Follow social profiles, share posts, and complete profile steps to earn.</p>
+        </div>
+        <div class="card feature">
+          <h3>Claim Rewards</h3>
+          <p>After verification, claim your PUMP rewards directly to your connected wallet.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tasks" class="wrap card tasks">
+      <h2>Available Tasks</h2>
+      <ul class="task-list" aria-live="polite">
+        <li class="task">
+          <div><strong>Follow on Twitter</strong><span class="muted">@pumpquest</span></div>
+          <div class="task-right"><span class="reward">+10 PUMP</span><button class="btn btn-sm">Verify</button></div>
+        </li>
+        <li class="task">
+          <div><strong>Retweet pinned post</strong><span class="muted">Share the word</span></div>
+          <div class="task-right"><span class="reward">+5 PUMP</span><button class="btn btn-sm">Verify</button></div>
+        </li>
+        <li class="task">
+          <div><strong>Complete profile</strong><span class="muted">Add avatar & bio</span></div>
+          <div class="task-right"><span class="reward">+3 PUMP</span><button class="btn btn-sm">Verify</button></div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="wrap cta-footer card">
+      <h3>Ready to start?</h3>
+      <p>Connect your wallet and begin. See Terms for rules and safety notes.</p>
+      <div class="cta-actions">
+        <button class="btn btn-primary goAuth">Connect Wallet</button>
+        <a class="btn btn-outline" href="terms.html">View Terms</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="foot-left">
+        <div class="logo">PUMP<span class="dot">.</span>Quest</div>
+        <div class="muted">© 2025 PUMP Quest</div>
+      </div>
+      <div class="foot-right">
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="pump.js" defer></script>
+</body>
+</html>
